@@ -1,0 +1,16 @@
+from flask import Flask, request, jsonify
+import requests
+
+app = Flask(__name__)
+
+@app.route('/get_response', methods=['POST'])
+def get_response():
+    message = request.form.get('message')
+
+    # Forward the message to the Streamlit app
+    streamlit_response = requests.post('https://chatbot-9mnu6yzqvahwpbdcfzhgwx.streamlit.app/', data={'message': message}).text
+
+    return jsonify({'response': streamlit_response})
+
+if __name__ == '__main__':
+    app.run(debug=True)
