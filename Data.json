@@ -1,0 +1,296 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I am Jack, your bot assistant"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Jack."]
+    },
+    {
+      "tag": "Workout Tracker Apps",
+      "patterns": [
+        "I'm looking for a workout tracker app. Any recommendations?",
+        "Can you suggest a workout tracker app that's good for weightlifting?",
+        "I need a workout tracker app that can sync with my smartwatch. Any ideas?",
+        "I'm interested in a workout tracker app that also offers nutrition advice. Do you know any?",
+        "I'm a beginner in working out. Is there a workout tracker app suitable for me?", "What’s the best app for tracking my workouts?", "Can you recommend a good workout tracker app?", "I need an app to log my gym workouts.", "Is there an app that can track my running distance?", "I’m looking for a fitness app with a good user interface.", "Which workout apps have the best reviews?", "Can I sync my workout app with other health apps?", "I want an app that can track both indoor and outdoor workouts.", "Are there any free workout tracker apps?", "Which workout apps also provide workout routines?", "I need a workout app that can track my progress over time.", "Can you suggest an app that provides real-time feedback during workouts?", "Which workout tracker apps are best for weightlifting?", "I’m looking for a workout app that also includes diet tracking.", "Are there any workout apps that can track my heart rate?", "Which workout tracker apps are compatible with my smartwatch?", "I want a workout app that can set and track fitness goals.", "Can you suggest a workout tracker app that also includes yoga routines?", "Which workout apps have the most comprehensive exercise libraries?", "I’m looking for a workout tracker app that also offers community support."
+      ],
+      "responses": [
+        "Sure, there are several popular workout tracker apps such as MyFitnessPal, JEFIT, and StrongLifts. They offer features like exercise libraries, workout plans, and progress tracking."
+      ]
+    },
+    {"tag": "Personal Training Apps",
+      "patterns": [
+        "I need a personal training app to help me with my workouts.",
+        "Can you recommend a good personal training app?",
+        "I'm looking for a personal training app that can customize workout plans for me.",
+        "Is there a personal training app that can track my progress?",
+        "I want a personal training app that can sync with my other fitness apps.", "Can you recommend a personal training app?", "I’m looking for an app to help me with my workouts.", "Which personal training apps have the best user reviews?", "I need a personal training app that can customize workout plans for me.", "Are there any personal training apps that include video tutorials?", "Which personal training apps are good for beginners?", "I want a personal training app that can adapt to my fitness level.", "Can you suggest a personal training app that includes diet plans?", "Which personal training apps can sync with my wearable device?", "I’m looking for a personal training app that offers progress tracking.", "Are there any personal training apps that provide feedback on my form?", "Which personal training apps offer a variety of workout routines?", "I need a personal training app that includes yoga and pilates workouts.", "Can you suggest a personal training app that offers live classes?", "Which personal training apps include high intensity interval training (HIIT) workouts?", "I’m looking for a personal training app that offers strength training routines.", "Are there any personal training apps that include mindfulness and meditation sessions?", "Which personal training apps offer the best value for money?", "I need a personal training app that can help me train for a marathon.", "I’m looking for a personal training app that also includes sleep tracking."
+      ],
+      "responses": [
+        "Sure, Nike Training Club is a highly recommended personal training app. It provides a variety of workouts from professional trainers."
+      ]
+    },
+    {
+      "tag": "Yoga Apps",
+      "patterns": [
+        "I'm interested in starting yoga. Can you suggest a good app?",
+        "I need a yoga app that offers classes for different levels.",
+        "Is there a yoga app that provides guided sessions?",
+        "Can you recommend a yoga app that includes meditation?",
+        "I'm looking for a yoga app that I can use at home.", "Can you recommend a good yoga app?", "I’m looking for a yoga app with guided sessions.", "Which yoga apps are suitable for beginners?", "I need a yoga app with a variety of styles, like Hatha and Vinyasa.", "Are there any yoga apps that include meditation sessions?", "Which yoga apps offer the best value for money?", "I want a yoga app that I can use at home.", "Can you suggest a yoga app that includes progress tracking?", "Which yoga apps can sync with my health app?", "I’m looking for a yoga app that offers live classes.", "Are there any yoga apps that provide feedback on my form?", "Which yoga apps offer a free trial?", "I need a yoga app that includes both short and long sessions.", "Can you suggest a yoga app that offers personalized workout plans?", "Which yoga apps include exercises for stress relief?", "I’m looking for a yoga app with good user reviews.", "Are there any yoga apps that include diet and nutrition advice?", "Which yoga apps are available in multiple languages?", "I need a yoga app that includes advanced poses.", "I’m looking for a yoga app that also includes Pilates workouts."
+      ],
+      "responses": [
+        "Yoga for Beginners is a great app for beginners. It offers a variety of yoga practices and guides you through each pose."
+      ]
+    },
+    {
+      "tag": "Calorie Counter Apps",
+      "patterns": [
+        "I need a calorie counter app to help me with my diet.",
+        "Can you recommend a good calorie counter app?",
+        "I'm looking for a calorie counter app that includes a food database.",
+        "Is there a calorie counter app that can track my daily intake?",
+        "I want a calorie counter app that can sync with my fitness apps.", "Can you recommend a good calorie counter app?", "I’m looking for a calorie counter app with a large food database.", "Which calorie counter apps are the most accurate?", "I need a calorie counter app that can scan barcodes.", "Are there any calorie counter apps that include a meal planner?", "Which calorie counter apps can sync with my fitness tracker?", "I want a calorie counter app that also tracks my water intake.", "Can you suggest a calorie counter app that includes nutrition information for each food?", "Which calorie counter apps have a user-friendly interface?", "I’m looking for a calorie counter app that can help me lose weight.", "Are there any calorie counter apps that provide recipes?", "Which calorie counter apps include a community feature for support and motivation?", "I need a calorie counter app that can track my macronutrients.", "Can you suggest a calorie counter app that offers personalized diet plans?", "Which calorie counter apps are available in multiple languages?", "I’m looking for a calorie counter app that also includes exercise tracking.", "Are there any calorie counter apps that offer a free trial?", "Which calorie counter apps are suitable for people with dietary restrictions, like vegan or gluten-free?", "I need a calorie counter app that includes a grocery list feature.", "I’m looking for a calorie counter app that also tracks my progress over time."
+      ],
+      "responses": [
+        "MyFitnessPal is a popular calorie counter app. It features a comprehensive food database and tracks your daily intake. However, some features are available only in the premium version",
+        "FatSecret is a great calorie counter app. It also contain a barcode scanner helps you track packaged foods." 
+      ]
+    },
+    {
+      "tag": "Diet Plan Apps",
+      "patterns": [
+        "I need a diet plan app to help me lose weight.",
+        "Can you recommend a good diet plan app?",
+        "I'm looking for a diet plan app that can customize meal plans for me.",
+        "Is there a diet plan app that includes a shopping list feature?",
+        "I want a diet plan app that offers vegetarian meal options.", "Can you recommend a good diet plan app?", "I’m looking for a diet plan app that offers personalized meal plans.", "Which diet plan apps are the most popular?", "I need a diet plan app that caters to my dietary restrictions.", "Are there any diet plan apps that include a grocery list feature?", "Which diet plan apps offer the best value for money?", "I want a diet plan app that also tracks my calorie intake.", "Can you suggest a diet plan app that includes recipes?", "Which diet plan apps can sync with my fitness tracker?", "I’m looking for a diet plan app that provides nutritional information for each meal.", "Are there any diet plan apps that offer a free trial?", "Which diet plan apps are suitable for vegetarians?", "I need a diet plan app that can help me gain weight.", "Can you suggest a diet plan app that offers meal plans for high protein diets?", "Which diet plan apps include a community feature for support and motivation?", "I’m looking for a diet plan app that also includes exercise routines.", "Are there any diet plan apps that provide feedback on my progress?", "Which diet plan apps are available in multiple languages?", "I need a diet plan app that includes both short term and long term diet plans.", "I’m looking for a diet plan app that also includes water tracking."
+      ],
+      "responses": [
+        "FatSecret is a comprehensive diet plan app that includes a variety of features such as calorie tracking, meal planning, and a shopping list."      
+      ]
+    },
+    {
+      "tag": "Recipe and Cooking Apps",
+      "patterns": [
+        "I need a recipe app that offers healthy cooking options.",
+        "Can you recommend a good cooking app?",
+        "I'm looking for a recipe app that includes nutritional information.",
+        "Is there a cooking app that provides step-by-step instructions?",
+        "I want a recipe app that I can customize based on my dietary needs.", "Can you recommend a good recipe app?", "I’m looking for a cooking app that offers step-by-step instructions.", "Which recipe apps are the most popular?", "I need a recipe app that caters to my dietary restrictions.", "Are there any cooking apps that include video tutorials?", "Which recipe apps offer the best value for money?", "I want a cooking app that I can use to plan my meals for the week.", "Can you suggest a recipe app that includes a grocery list feature?", "Which cooking apps can sync with my health app?", "I’m looking for a recipe app that provides nutritional information for each dish.", "Are there any cooking apps that offer a free trial?", "Which recipe apps are suitable for beginners?", "I need a cooking app that can help me learn new techniques.", "Can you suggest a recipe app that offers international cuisine?", "Which cooking apps include a community feature for sharing recipes?", "I’m looking for a recipe app that also includes wine pairings.", "Are there any cooking apps that provide feedback on my cooking skills?", "Which recipe apps are available in multiple languages?", "I need a recipe app that includes both quick and gourmet recipes.", "I’m looking for a cooking app that also includes baking recipes."
+      ],
+      "responses": [
+        "FatSecret is a popular recipe app that offers a variety of healthy cooking options."
+      ]
+    },
+    {
+      "tag": "Stress Management Apps",
+      "patterns": [
+        "I need a stress management app to help me relax.",
+        "Can you recommend a good stress management app?",
+        "I'm looking for a stress management app that includes mindfulness exercises.",
+        "Is there a stress management app that provides guided meditation sessions?",
+        "I want a stress management app that I can use before bedtime.", "Can you recommend a good stress management app?", "I’m looking for a stress management app that offers guided meditations.", "Which stress management apps are the most popular?", "I need a stress management app that includes breathing exercises.", "Are there any stress management apps that include mindfulness techniques?", "Which stress management apps offer the best value for money?", "I want a stress management app that I can use to track my mood.", "Can you suggest a stress management app that includes cognitive behavioral therapy techniques?", "Which stress management apps can sync with my health app?", "I’m looking for a stress management app that provides relaxation sounds.", "Are there any stress management apps that offer a free trial?", "Which stress management apps are suitable for beginners?", "I need a stress management app that can help me manage my anxiety.", "Can you suggest a stress management app that offers personalized plans?", "Which stress management apps include a community feature for support and motivation?", "I’m looking for a stress management app that also includes sleep tracking.", "Are there any stress management apps that provide feedback on my progress?", "Which stress management apps are available in multiple languages?", "I need a stress management app that includes both short term and long term stress management techniques.", "I’m looking for a stress management app that also includes yoga routines."
+      ],
+      "responses": [
+        "Calm is a great app that provides guided meditation sessions to help you manage stress."
+      ]
+    },
+    {
+      "tag": "Diabetes Management Apps",
+      "patterns": [
+        "I need a diabetes management app to help me track my blood sugar levels.",
+        "Can you recommend a good diabetes management app?",
+        "I'm looking for a diabetes app that includes a food database.",
+        "Is there a diabetes app that can sync with my glucose meter?",
+        "I want a diabetes management app that can help me manage my medication.", "Can you recommend a good diabetes management app?", "I’m looking for a diabetes management app that tracks blood sugar levels.", "Which diabetes management apps are the most popular?", "I need a diabetes management app that can remind me to take my medication.", "Are there any diabetes management apps that include a carb counting feature?", "Which diabetes management apps offer the best value for money?", "I want a diabetes management app that I can use to log my meals.", "Can you suggest a diabetes management app that includes insulin dosage calculations?", "Which diabetes management apps can sync with my glucose meter?", "I’m looking for a diabetes management app that provides educational resources.", "Are there any diabetes management apps that offer a free trial?", "Which diabetes management apps are suitable for type 1 diabetes?", "I need a diabetes management app that can help me manage my weight.", "Can you suggest a diabetes management app that offers personalized advice?", "Which diabetes management apps include a community feature for support and motivation?", "I’m looking for a diabetes management app that also includes exercise tracking.", "Are there any diabetes management apps that provide feedback on my progress?", "Which diabetes management apps are available in multiple languages?", "I need a diabetes management app that includes both short term and long term diabetes management techniques.", "I’m looking for a diabetes management app that also includes stress management techniques."
+      ],
+      "responses": [
+        "MySugr is a popular diabetes management app that helps you track your blood sugar levels and provides detailed reports.",
+        "Yes, the app Dexcom G7 can sync with the Dexcom Continuous Glucose Monitoring and automatically log your blood sugar readings."
+      ]
+    },
+    {
+      "tag": "Heart Disease Management Apps",
+      "patterns": [
+        "I need a heart disease management app to help me track my heart health.",
+        "Can you recommend a good heart disease management app?",
+        "I'm looking for a heart disease app that includes a blood pressure tracker.",
+        "Is there a heart disease app that can sync with my fitness tracker?",
+        "I want a heart disease management app that can help me manage my medication.", "Can you recommend a good heart disease management app?", "I’m looking for a heart disease management app that tracks blood pressure levels.", "Which heart disease management apps are the most popular?", "I need a heart disease management app that can remind me to take my medication.", "Are there any heart disease management apps that include a feature to log symptoms?", "Which heart disease management apps offer the best value for money?", "I want a heart disease management app that I can use to log my meals.", "Can you suggest a heart disease management app that includes heart rate tracking?", "Which heart disease management apps can sync with my wearable device?", "I’m looking for a heart disease management app that provides educational resources.", "Are there any heart disease management apps that offer a free trial?", "Which heart disease management apps are suitable for managing high cholesterol?", "I need a heart disease management app that can help me manage my weight.", "Can you suggest a heart disease management app that offers personalized advice?", "Which heart disease management apps include a community feature for support and motivation?", "I’m looking for a heart disease management app that also includes exercise tracking.", "Are there any heart disease management apps that provide feedback on my progress?", "Which heart disease management apps are available in multiple languages?", "I need a heart disease management app that includes both short term and long term heart disease management techniques.", "I’m looking for a heart disease management app that also includes stress management techniques."
+      ],
+      "responses": [
+        "myHeart: This app is designed for patients with heart disease or those recovering from cardiac surgery. It offers personalized self-management and cardiac rehabilitation programs, and has over 50 educational videos."
+      ]
+    },
+    {
+      "tag": "Cancer Management Apps",
+      "patterns": [
+        "I need a cancer management app to help me cope with my condition.",
+        "Can you recommend a good cancer management app?",
+        "I'm looking for a cancer app that includes resources for cancer patients.",
+        "Is there a cancer app that can help me manage my treatment plan?",
+        "I want a cancer management app that can connect me with a support community.", "Can you recommend a good cancer management app?", "I’m looking for a cancer management app that tracks my symptoms.", "Which cancer management apps are the most popular?", "I need a cancer management app that can remind me to take my medication.", "Are there any cancer management apps that include a feature to log side effects?", "Which cancer management apps offer the best value for money?", "I want a cancer management app that I can use to log my meals.", "Can you suggest a cancer management app that includes a feature to track my mood and mental health?", "Which cancer management apps can sync with my health app?", "I’m looking for a cancer management app that provides educational resources about my type of cancer.", "Are there any cancer management apps that offer a free trial?", "Which cancer management apps are suitable for managing the side effects of chemotherapy?", "I need a cancer management app that can help me manage my weight.", "Can you suggest a cancer management app that offers personalized advice?", "Which cancer management apps include a community feature for support and motivation?", "I’m looking for a cancer management app that also includes exercise tracking.", "Are there any cancer management apps that provide feedback on my progress?", "Which cancer management apps are available in multiple languages?", "I need a cancer management app that includes both short term and long term cancer management techniques.", "I’m looking for a cancer management app that also includes stress management techniques."
+      ],
+      "responses": [
+        "The Vinehealth app provides a free and simple way for people undergoing cancer treatment to manage physical and mental wellbeing indicators and to share this information easily with their clinicians."
+      ]
+    },
+    {
+      "tag": "Menstrual Cycle Tracker Apps",
+      "patterns": [
+        "I need a menstrual cycle tracker app to help me track my periods.",
+        "Can you recommend a good menstrual cycle tracker app?",
+        "I'm looking for a period tracker app that predicts my next period.",
+        "Is there a menstrual cycle app that provides fertility predictions?",
+        "I want a period tracker app that includes a symptom tracker.", "Can you recommend a good menstrual cycle tracking app?", "I’m looking for a menstrual cycle tracker that predicts my next period.", "Which menstrual cycle tracking apps are the most popular?", "I need a menstrual cycle tracker that can remind me to log my symptoms.", "Are there any menstrual cycle tracking apps that include a feature to track my mood?", "Which menstrual cycle tracking apps offer the best value for money?", "I want a menstrual cycle tracker that I can use to log my daily health data.", "Can you suggest a menstrual cycle tracking app that includes fertility predictions?", "Which menstrual cycle tracking apps can sync with my health app?", "I’m looking for a menstrual cycle tracking app that provides educational resources about menstrual health.", "Are there any menstrual cycle tracking apps that offer a free trial?", "Which menstrual cycle tracking apps are suitable for tracking irregular cycles?", "I need a menstrual cycle tracker that can help me manage my PMS symptoms.", "Can you suggest a menstrual cycle tracking app that offers personalized advice?", "Which menstrual cycle tracking apps include a community feature for support and motivation?", "I’m looking for a menstrual cycle tracker that also includes pregnancy mode.", "Are there any menstrual cycle tracking apps that provide feedback on my cycle trends?", "Which menstrual cycle tracking apps are available in multiple languages?", "I need a menstrual cycle tracker that includes both short term and long term cycle tracking.", "I’m looking for a menstrual cycle tracker that also includes reminders for contraceptive use."
+      ],
+      "responses": [
+        "Clue is a popular menstrual cycle tracker app that helps you track your periods and predicts your next cycle.",
+        "Absolutely, the app Period Calendar Period Tracker not only tracks your periods but also logs your symptoms and moods."
+      ]
+    },
+    {
+      "tag": "Pregnancy and Childbirth Apps",
+      "patterns": [
+        "I need a pregnancy app to help me track my pregnancy.",
+        "Can you recommend a good childbirth app?",
+        "I'm looking for a pregnancy app that includes a baby growth tracker.",
+        "Is there a childbirth app that provides resources for new parents?",
+        "I want a pregnancy app that can help me prepare for childbirth.", "Can you recommend a good pregnancy tracking app?", "I’m looking for a childbirth app that offers week by week updates.", "Which pregnancy apps are the most popular?", "I need a pregnancy app that can remind me to take my prenatal vitamins.", "Are there any childbirth apps that include a contraction timer?", "Which pregnancy apps offer the best value for money?", "I want a pregnancy app that I can use to log my symptoms.", "Can you suggest a childbirth app that includes a feature to track my baby’s movements?", "Which pregnancy apps can sync with my health app?", "I’m looking for a pregnancy app that provides educational resources about each trimester.", "Are there any childbirth apps that offer a free trial?", "Which pregnancy apps are suitable for first-time moms?", "I need a pregnancy app that can help me create a birth plan.", "Can you suggest a childbirth app that offers personalized advice?", "Which pregnancy apps include a community feature for support and motivation?", "I’m looking for a pregnancy app that also includes postpartum care information.", "Are there any childbirth apps that provide feedback on my progress?", "Which pregnancy apps are available in multiple languages?", "I need a pregnancy app that includes both short term and long term pregnancy tracking.", "I’m looking for a childbirth app that also includes a baby growth tracker."
+      ],
+      "responses": [
+        "Absolutely, the app Pregnancy+ includes a baby growth tracker, pregnancy calendar, and health tips.",
+	"Natural Cycles: This is an app available for iOS and Android mobile devices. The user inputs daily basal body temperature measurements and menstruation data2. A proprietary algorithm then uses this information to predict ovulation and fertility.",
+	"Tommy’s App: This is a web app clinical decision tool developed for women and maternity staff1. It uses individualised AI risk assessment to prevent stillbirths and premature births."
+      ]
+    },
+    {"tag": "Sleep Cycle Tracker Apps",
+      "patterns": [
+        "I need a sleep cycle tracker app to help me improve my sleep.",
+        "Can you recommend a good sleep cycle tracker app?",
+        "I'm looking for a sleep cycle app that includes a sleep quality analysis.",
+        "Is there a sleep cycle app that can sync with my smartwatch?",
+        "I want a sleep cycle tracker app that includes a smart alarm.", "Can you recommend a good sleep cycle tracking app?", "I’m looking for a sleep tracker that offers detailed sleep analysis.", "Which sleep cycle tracking apps are the most popular?", "I need a sleep cycle tracker that can remind me to go to bed.", "Are there any sleep cycle tracking apps that include a smart alarm?", "Which sleep cycle tracking apps offer the best value for money?", "I want a sleep cycle tracker that I can use to log my daily sleep data.", "Can you suggest a sleep cycle tracking app that includes sleep aid sounds?", "Which sleep cycle tracking apps can sync with my wearable device?", "I’m looking for a sleep cycle tracking app that provides educational resources about sleep health.", "Are there any sleep cycle tracking apps that offer a free trial?", "Which sleep cycle tracking apps are suitable for tracking insomnia?", "I need a sleep cycle tracker that can help me improve my sleep hygiene.", "Can you suggest a sleep cycle tracking app that offers personalized advice?", "Which sleep cycle tracking apps include a community feature for support and motivation?", "I’m looking for a sleep cycle tracker that also includes a feature to track my daytime naps.", "Are there any sleep cycle tracking apps that provide feedback on my sleep trends?", "Which sleep cycle tracking apps are available in multiple languages?", "I need a sleep cycle tracker that includes both short term and long term sleep tracking.", "I’m looking for a sleep cycle tracker that also includes a feature to log my dreams."
+      ],
+      "responses": [
+        "Sleep Cycle: This app tracks and analyzes your sleep, waking you up at the most perfect time, feeling rested. It allows you to set sleep goals and gives actionable advice for reaching them. It also provides more detailed sleep-stage data than most other apps. The free version provides general sleep advice and a record of your sleep for seven days at a time. For $50 a year (or $6 per month), Sleep Cycle tracks and records your sleep reasonably accurately for the long term and helps you create a path toward improvement."
+      ]
+    },
+    {
+      "tag": "Sleep Aid Apps",
+      "patterns": [
+        "I need a sleep aid app to help me fall asleep.",
+        "Can you recommend a good sleep aid app?",
+        "I'm looking for a sleep aid app that includes soothing sounds.",
+        "Is there a sleep aid app that provides guided sleep meditations?",
+        "I want a sleep aid app that can help me establish a sleep routine.", "Can you recommend a good sleep aid app?", "I’m looking for a sleep aid app that offers ambient sounds.", "Which sleep aid apps are the most popular?", "I need a sleep aid app that can play white noise.", "Are there any sleep aid apps that include guided meditations for sleep?", "Which sleep aid apps offer the best value for money?", "I want a sleep aid app that I can use to create a sleep routine.", "Can you suggest a sleep aid app that includes bedtime stories?", "Which sleep aid apps can sync with my wearable device?", "I’m looking for a sleep aid app that provides educational resources about sleep health.", "Are there any sleep aid apps that offer a free trial?", "Which sleep aid apps are suitable for managing insomnia?", "I need a sleep aid app that can help me relax before bed.", "Can you suggest a sleep aid app that offers personalized sleep plans?", "Which sleep aid apps include a community feature for support and motivation?", "I’m looking for a sleep aid app that also includes a feature to track my sleep.", "Are there any sleep aid apps that provide feedback on my sleep quality?", "Which sleep aid apps are available in multiple languages?", "I need a sleep aid app that includes both short term and long term sleep aids.", "I’m looking for a sleep aid app that also includes a feature to wake me up gently."
+      ],
+      "responses": [
+	"Sleepio: This is a digital sleep improvement program accessible through mobile and web. It uses behavioral science and artificial intelligence to help you clear your mind, improve your sleep, and have better days.",
+        "Calm is a popular sleep aid app that offers a variety of soothing sounds and sleep stories."
+      ]
+    },
+    {
+      "tag": "Prescription Medication Reminder Apps",
+      "patterns": [
+        "I need a prescription medication reminder app to help me manage my medications.",
+        "Can you recommend a good prescription medication reminder app?",
+        "I'm looking for a medication reminder app that includes a pill identifier.",
+        "Is there a medication reminder app that can sync with my pharmacy?",
+        "I want a prescription medication reminder app that can track my medication history.", "Can you recommend a good prescription medication reminder app?", "I’m looking for a medication reminder app that can handle multiple medications.", "Which medication reminder apps are the most popular?", "I need a medication reminder app that can remind me to refill my prescriptions.", "Are there any medication reminder apps that include a feature to track my medication intake?", "Which medication reminder apps offer the best value for money?", "I want a medication reminder app that I can use to log my symptoms.", "Can you suggest a medication reminder app that includes a feature to share my medication list with my doctor?", "Which medication reminder apps can sync with my health app?", "I’m looking for a medication reminder app that provides educational resources about my medications.", "Are there any medication reminder apps that offer a free trial?", "Which medication reminder apps are suitable for managing chronic conditions?", "I need a medication reminder app that can help me manage my side effects.", "Can you suggest a medication reminder app that offers personalized reminders?", "Which medication reminder apps include a community feature for support and motivation?", "I’m looking for a medication reminder app that also includes a feature to track my vitals.", "Are there any medication reminder apps that provide feedback on my medication adherence?", "Which medication reminder apps are available in multiple languages?", "I need a medication reminder app that includes both short term and long term medication tracking.", "I’m looking for a medication reminder app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+        "Medisafe is a popular medication reminder app that helps you manage your medications and stay on track."
+      ]
+    },
+    {
+      "tag": "Virtual Consultation Apps",
+      "patterns": [
+        "I need a virtual consultation app to talk to a doctor online.",
+        "Can you recommend a good virtual consultation app?",
+        "I'm looking for a virtual consultation app that includes a symptom checker.",
+        "Is there a virtual consultation app that can connect me with specialists?",
+        "I want a virtual consultation app that can prescribe medications.", "Can you recommend a good virtual consultation app?", "I’m looking for a virtual consultation app that offers video calls with doctors.", "Which virtual consultation apps are the most popular?", "I need a virtual consultation app that can schedule appointments for me.", "Are there any virtual consultation apps that include a feature to share my medical records?", "Which virtual consultation apps offer the best value for money?", "I want a virtual consultation app that I can use to ask health questions.", "Can you suggest a virtual consultation app that includes a feature to order prescription refills?", "Which virtual consultation apps can sync with my health app?", "I’m looking for a virtual consultation app that provides educational resources about my health conditions.", "Are there any virtual consultation apps that offer a free trial?", "Which virtual consultation apps are suitable for managing chronic conditions?", "I need a virtual consultation app that can help me manage my medications.", "Can you suggest a virtual consultation app that offers personalized health advice?", "Which virtual consultation apps include a community feature for support and motivation?", "I’m looking for a virtual consultation app that also includes a feature to track my symptoms.", "Are there any virtual consultation apps that provide feedback on my health progress?", "Which virtual consultation apps are available in multiple languages?", "I need a virtual consultation app that includes both short term and long term health tracking.", "I’m looking for a virtual consultation app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+        "Teladoc is a popular virtual consultation app that allows you to talk to a doctor online 24/7.",
+        "Doctor On Demand is another great app that provides video consultations with doctors, psychologists, and other healthcare professionals.",
+        "Absolutely, the app Ada not only provides virtual consultations but also includes a comprehensive symptom checker."
+      ]
+    },
+    {"tag": "General Symptom Checker Apps",
+      "patterns": [
+        "I need a general symptom checker app to help me understand my symptoms.",
+        "Can you recommend a good general symptom checker app?",
+        "I'm looking for a symptom checker app that includes a comprehensive symptom library.",
+        "Is there a symptom checker app that provides potential diagnoses?",
+        "I want a general symptom checker app that can guide me to the appropriate care.", "Can you recommend a good symptom checker app?", "I’m looking for a symptom checker app that offers possible diagnoses.", "Which symptom checker apps are the most popular?", "I need a symptom checker app that can guide me on what to do next.", "Are there any symptom checker apps that include a feature to track my symptoms over time?", "Which symptom checker apps offer the best value for money?", "I want a symptom checker app that I can use to log my symptoms.", "Can you suggest a symptom checker app that includes a feature to share my symptom history with my doctor?", "Which symptom checker apps can sync with my health app?", "I’m looking for a symptom checker app that provides educational resources about my symptoms.", "Are there any symptom checker apps that offer a free trial?", "Which symptom checker apps are suitable for managing chronic conditions?", "I need a symptom checker app that can help me decide when to seek medical help.", "Can you suggest a symptom checker app that offers personalized health advice?", "Which symptom checker apps include a community feature for support and motivation?", "I’m looking for a symptom checker app that also includes a feature to track my medication.", "Are there any symptom checker apps that provide feedback on my health progress?", "Which symptom checker apps are available in multiple languages?", "I need a symptom checker app that includes both short term and long term health tracking.", "I’m looking for a symptom checker app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+        "WebMD is a popular general symptom checker app that helps you understand your symptoms and guides you to the appropriate care."
+      ]
+    },
+    {
+      "tag": "skin Symptom Checker Apps",
+      "patterns": [
+        "I need a dermatology symptom checker app to help me understand my skin symptoms.", "Can you recommend a good skin symptom checker app?", "I’m looking for a skin symptom checker app that offers possible diagnoses.", "Which skin symptom checker apps are the most popular?", "I need a skin symptom checker app that can guide me on what to do next.", "Are there any skin symptom checker apps that include a feature to track my symptoms over time?", "Which skin symptom checker apps offer the best value for money?", "I want a skin symptom checker app that I can use to log my symptoms.", "Can you suggest a skin symptom checker app that includes a feature to share my symptom history with my dermatologist?", "Which skin symptom checker apps can sync with my health app?", "I’m looking for a skin symptom checker app that provides educational resources about skin conditions.", "Are there any skin symptom checker apps that offer a free trial?", "Which skin symptom checker apps are suitable for managing chronic skin conditions?", "I need a skin symptom checker app that can help me decide when to seek medical help.", "Can you suggest a skin symptom checker app that offers personalized skin health advice?", "Which skin symptom checker apps include a community feature for support and motivation?", "I’m looking for a skin symptom checker app that also includes a feature to track my medication.", "Are there any skin symptom checker apps that provide feedback on my skin health progress?", "Which skin symptom checker apps are available in multiple languages?", "I need a skin symptom checker app that includes both short term and long term skin health tracking.", "I’m looking for a skin symptom checker app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+        "SkinVision is a popular dermatology symptom checker app that helps you understand your skin symptoms and guides you to the appropriate care."
+      ]   
+    },
+    {
+      "tag": "neurology symptom checkers",
+      "patterns": [        
+        "Can you recommend a good neurology symptom checker app?", "Can you recommend a good neurology symptom checker app?", "I’m looking for a neurology symptom checker app that offers possible diagnoses.", "Which neurology symptom checker apps are the most popular?", "I need a neurology symptom checker app that can guide me on what to do next.", "Are there any neurology symptom checker apps that include a feature to track my symptoms over time?", "Which neurology symptom checker apps offer the best value for money?", "I want a neurology symptom checker app that I can use to log my symptoms.", "Can you suggest a neurology symptom checker app that includes a feature to share my symptom history with my neurologist?", "Which neurology symptom checker apps can sync with my health app?", "I’m looking for a neurology symptom checker app that provides educational resources about neurological conditions.", "Are there any neurology symptom checker apps that offer a free trial?", "Which neurology symptom checker apps are suitable for managing chronic neurological conditions?", "I need a neurology symptom checker app that can help me decide when to seek medical help.", "Can you suggest a neurology symptom checker app that offers personalized health advice?", "Which neurology symptom checker apps include a community feature for support and motivation?", "I’m looking for a neurology symptom checker app that also includes a feature to track my medication.", "Are there any neurology symptom checker apps that provide feedback on my health progress?", "Which neurology symptom checker apps are available in multiple languages?", "I need a neurology symptom checker app that includes both short term and long term health tracking.", "I’m looking for a neurology symptom checker app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+        "Babylon Health: This app uses artificial intelligence to assess your symptoms. It is available at no cost through select health insurance plans. Don't receive Babylon through your insurance? Access our Chatbot and My Health for free."
+      ]   
+    },
+    {
+      "tag": "Cancer Diagnosis Apps",
+      "patterns": [
+        "I need a cancer diagnosis app to help me understand my diagnosis.",
+        "Can you recommend a good cancer diagnosis app?",
+        "I'm looking for a cancer diagnosis app that includes resources for cancer patients.",
+        "Is there a cancer diagnosis app that provides treatment options?",
+        "I want a cancer diagnosis app that can connect me with a support community.", "Can you recommend a good cancer diagnosis app?", "I’m looking for a cancer diagnosis app that offers possible diagnoses based on my symptoms.", "Which cancer diagnosis apps are the most popular?", "I need a cancer diagnosis app that can guide me on what to do next.", "Are there any cancer diagnosis apps that include a feature to track my symptoms over time?", "Which cancer diagnosis apps offer the best value for money?", "I want a cancer diagnosis app that I can use to log my symptoms.", "Can you suggest a cancer diagnosis app that includes a feature to share my symptom history with my oncologist?", "Which cancer diagnosis apps can sync with my health app?", "I’m looking for a cancer diagnosis app that provides educational resources about different types of cancer.", "Are there any cancer diagnosis apps that offer a free trial?", "Which cancer diagnosis apps are suitable for managing chronic cancer conditions?", "I need a cancer diagnosis app that can help me decide when to seek medical help.", "Can you suggest a cancer diagnosis app that offers personalized health advice?", "Which cancer diagnosis apps include a community feature for support and motivation?", "I’m looking for a cancer diagnosis app that also includes a feature to track my medication.", "Are there any cancer diagnosis apps that provide feedback on my health progress?", "Which cancer diagnosis apps are available in multiple languages?", "I need a cancer diagnosis app that includes both short term and long term health tracking.", "I’m looking for a cancer diagnosis app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+	"The Vinehealth app provides a free and simple way for people undergoing cancer treatment to manage physical and mental wellbeing indicators and to share this information easily with their clinicians.",
+        "Belong is a popular cancer diagnosis app that provides resources, support, and personalized information for cancer patients.",
+        "Cancer.Net Mobile is another great app that helps you understand your diagnosis with a variety of tools and resources."
+      ]   
+    },
+    {
+      "tag": "Hearing Test Apps",
+      "patterns": [
+        "I need a hearing test app to check my hearing.",
+        "Can you recommend a good hearing test app?",
+        "I'm looking for a hearing test app that includes a tinnitus test.",
+        "Is there a hearing test app that provides hearing exercises?",
+        "I want a hearing test app that can track my hearing over time.", "Can you recommend a good hearing test app?", "I’m looking for a hearing test app that offers accurate results.", "Which hearing test apps are the most popular?", "I need a hearing test app that can guide me on what to do next.", "Are there any hearing test apps that include a feature to track my hearing over time?", "Which hearing test apps offer the best value for money?", "I want a hearing test app that I can use to log my test results.", "Can you suggest a hearing test app that includes a feature to share my results with my audiologist?", "Which hearing test apps can sync with my health app?", "I’m looking for a hearing test app that provides educational resources about hearing health.", "Are there any hearing test apps that offer a free trial?", "Which hearing test apps are suitable for managing hearing loss?", "I need a hearing test app that can help me decide when to seek medical help.", "Can you suggest a hearing test app that offers personalized advice based on my test results?", "Which hearing test apps include a community feature for support and motivation?", "I’m looking for a hearing test app that also includes a feature to adjust my hearing aid settings.", "Are there any hearing test apps that provide feedback on my hearing progress?", "Which hearing test apps are available in multiple languages?", "I need a hearing test app that includes both short term and long term hearing tracking.", "I’m looking for a hearing test app that also includes a feature to log my doctor’s appointments."
+      ],
+      "responses": [
+	"Jacoti Hearing Center test can be completed within a few minutes at home and can be run independently by the subject. The professional assistance is substituted with detailed instructions and requirements screen."
+      ]
+    }
+  ]
+}
