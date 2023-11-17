@@ -12,7 +12,7 @@ CORS(app)
 # Load your chatbot_new model and tokenizer
 
 
-model_path = 'chatbot/chatbot_new'  # Adjust the path based on your actual model location
+model_path = 'chatbot_new'  # Adjust the path based on your actual model location
 tokenizer = BertTokenizer.from_pretrained(model_path)
 model = BertForSequenceClassification.from_pretrained(model_path)
 chatbot = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
